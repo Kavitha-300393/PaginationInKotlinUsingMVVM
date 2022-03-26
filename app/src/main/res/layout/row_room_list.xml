@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#3A3939"
+    android:id="@+id/ln"
+    android:layout_marginBottom="1dp">
+    <RelativeLayout
+        android:layout_margin="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#7C7B7B">
+        <ImageView
+            android:layout_centerInParent="true"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_videocam_24"/>
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/live_txt"
+            android:layout_width="50dp"
+            android:layout_height="25dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:background="#0D7711"
+            android:gravity="center"
+            android:text="Live"
+            android:textColor="#fff" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/txt_name"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="50dp"
+        android:layout_height="30dp"
+        android:text="Live"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        />
+
+        <TextView
+            android:textSize="12sp"
+            android:layout_weight="1"
+            android:id="@+id/txt_date"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_width="50dp"
+            android:layout_height="30dp"
+            android:text="Live"
+            android:gravity="right"
+            android:textColor="#fff"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+  >
+   <data class=".Videobinding">
+       <variable
+           name="videocontent"
+           type="com.example.mytest.VideoFragmet" />
+   </data>
+
+
+
+   <RelativeLayout
+    android:id="@+id/rl_detailing_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+   >
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/mainrecycler"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipToPadding="false"
+        android:paddingTop="10dp"
+        android:paddingBottom="10dp"/>
+    <ProgressBar
+        android:layout_centerInParent="true"
+        android:id="@+id/main_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"/>
+
+</RelativeLayout>
+</layout>

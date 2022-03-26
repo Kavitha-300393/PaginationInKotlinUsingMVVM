@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">VPM</string>
+    <string name="java">Java</string>
+    <string name="islive">IsLive</string>
+</resources>
